@@ -1,0 +1,154 @@
+html{
+
+	font-family: nunito;
+	color: white;
+	background: #1a1a1a;
+
+}
+
+
+/* All border radiuses */
+
+ul, li, button, #settingsBox,
+#hex, #redText, #greenText, #blueText{
+
+	border-radius: 5px;
+
+}
+
+button{
+
+	border-style: none;	
+	height: 31px ;
+	width: 180px;
+	color: white;
+	font-weight: bold;
+
+
+}
+
+/* end border radiuses*/
+
+ul{
+
+	background: #383838;
+	list-style-type: none;
+	width: 85%;
+	max-width: 900px;
+	margin: 0 auto;
+	margin-top: 75px;
+	text-align: center;
+	padding: 12px 0;
+
+}
+
+li{
+
+	background: #111;
+	padding: 55px;
+	display: inline-block;
+	margin: 0 12px;
+	margin-top: 5px;
+
+}
+
+.selected{
+
+	border-width: 9px;
+	border-style: solid;
+	border-color: white;
+	padding: 46px;
+
+}
+
+#addColor{
+
+	background: #29AA47;
+	margin: 39px auto 0 auto;
+	display: block;
+
+}
+
+#settingsBox{
+
+	background: #383838;
+
+	width: 360px;
+	margin: 0 auto;
+	margin-top: 15px;
+	text-align: center;
+	padding: 9px 0 17px ;
+	display: block;
+
+}
+
+/*************
+track
+*************/
+input[type="range"]{
+	-webkit-appearance: none;
+	width: 225px;
+	border-radius: 5px;
+}
+
+input[type="range"]::-webkit-slider-runnable-track{
+
+	border-radius: 5px;
+	height: 5px;
+
+}
+
+input[type="range"]:focus{
+
+	outline: none;
+
+}
+/******************
+Thumb
+******************/
+input[type="range"]::-webkit-slider-thumb{
+
+	-webkit-appearance: none;
+	height: 25px;
+	width: 12px;
+	background: orange;
+	border-radius: 5px;
+	margin-top: -10px;
+	}
+
+#hex, #redText, #greenText, #blueText{
+	text-align: right;
+	padding-right: 2.5px;
+	border-style: none;
+	height: 1.5em;
+}
+
+#redText, #greenText, #blueText{
+	margin: 0;
+	width: 35px;
+}
+
+#greenRange{
+	position: relative;
+	left: -2.5px;
+}
+#greenText{
+	width: 31px;
+}
+
+p{
+	margin: 6px;
+}
+
+#hex{
+	margin-top: 6px;
+	width: 80px;
+}
+
+#deleteButton{
+
+	margin-top: 9px;
+	background: tomato;
+
+}
+
