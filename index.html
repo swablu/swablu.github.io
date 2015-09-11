@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Color Scheme</title>
+	<link rel="stylesheet" href="css/main.css">
+
+
+</head>
+
+<body>
+
+	<ul>
+		
+	</ul>
+
+	<div id="settingsBox">
+		
+		<p>
+			R 
+			<input type="range" id="redRange" min="0" max="255" value="17">
+			<input type="text" id="redText" value="17"> 
+		</p>
+
+		<p>
+			G 
+			<input type="range" id="greenRange" min="0" max="255" value="17">
+			<input type="text" id="greenText" value="17">
+		</p>
+
+		<p>
+			B 
+			<input type="range" id="blueRange" min="0" max="255" value="17">
+			<input type="text" id="blueText" value="17">
+		</p>
+
+		<p> Hex #
+			<input type="text" id="hex" value="111111">
+		</p>
+
+		<button type="button" id="addColor">Add Color</button>
+		<button type="button" id="deleteButton">Delete</button>
+
+	</div>
+
+	
+	<script src="http://code.jquery.com/jquery-1.11.0.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/app.js" type="text/javascript" charset="utf-8"></script>
+
+</body>
+
+
+</html>
