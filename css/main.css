@@ -72,13 +72,38 @@ li{
 #settingsBox{
 
 	background: #383838;
-
-	width: 360px;
+	width: 400px;
 	margin: 0 auto;
 	margin-top: 15px;
 	text-align: center;
 	padding: 9px 0 17px ;
 	display: block;
+
+}
+
+/*********
+shadow effect
+*********/
+
+#settingsBox, ul{
+
+	border-bottom-style: solid;
+	border-bottom-color: #292929;
+	border-bottom-width: 5px;
+
+}
+
+#deleteButton{
+	border-bottom-style: solid;
+	border-bottom-color: #B21B1C;
+	border-bottom-width: 2px;
+}
+
+#addColor{
+
+	border-bottom-style: solid;
+	border-bottom-color: #18772B;
+	border-bottom-width: 2px;
 
 }
 
@@ -88,12 +113,11 @@ track
 input[type="range"]{
 	-webkit-appearance: none;
 	width: 225px;
-	border-radius: 5px;
+
 }
 
 input[type="range"]::-webkit-slider-runnable-track{
 
-	border-radius: 5px;
 	height: 5px;
 
 }
